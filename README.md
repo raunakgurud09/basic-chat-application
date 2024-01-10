@@ -6,9 +6,8 @@ This repository contains a basic application built with Node.js, Next.js, and So
 
 Make sure you have the following installed:
 
-- Node.js (version X.X.X or higher)
-- npm (Node.js package manager, comes with Node.js)
-- (Any other specific dependencies)
+- Node.js (18.17.0 or higher)
+- npm or yarn
 
 ## Getting Started
 
@@ -17,20 +16,26 @@ Follow these steps to get the application up and running on your local machine:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/repo-name.git
+    git clone https://github.com/raunakgurud09/basic-chat-application.git
     cd repo-name
     ```
 
-2. **Install dependencies:**
+2. **Install client dependencies and start client server:**
 
     ```bash
-    npm install
+    cd client
+    yarn install
+
+    yarn dev
     ```
 
-3. **Start the development server:**
+3. **Install server dependencies and start the development server:**
 
     ```bash
-    npm run dev
+    cd server
+    yarn dev
+
+    yarn dev
     ```
 
 4. **Open your browser:**

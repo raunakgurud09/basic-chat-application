@@ -8,6 +8,10 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raunakgurud09/basic-chat-application.git"
+  },
   "dependencies": {
     "next": "14.0.4",
     "react": "^18",
