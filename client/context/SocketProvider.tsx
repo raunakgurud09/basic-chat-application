@@ -4,6 +4,7 @@ import { Socket, io } from 'socket.io-client'
 
 interface ISocketContext {
   messages: string[]
+  socket: any
   sendMessage: (msg: string) => void
 }
 
@@ -53,7 +54,7 @@ export const SocketProvider: React.FC<{ children: React.ReactNode }> = ({ childr
 
 
   return (
-    <SocketContext.Provider value={{ messages, sendMessage }}>
+    <SocketContext.Provider value={{ socket, messages, sendMessage }}>
       {children}
     </SocketContext.Provider>
   )
