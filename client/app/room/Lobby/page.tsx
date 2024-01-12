@@ -23,6 +23,7 @@ export default function Lobby() {
   const handleRoomJoin = useCallback(({ email, room }: { email: string, room: string }) => {
     router.push(`/room/${room}`)
   }, [router])
+  
 
   useEffect(() => {
 

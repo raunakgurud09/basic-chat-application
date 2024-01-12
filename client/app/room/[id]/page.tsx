@@ -100,7 +100,7 @@ const Id = ({ params }: { params: { slug: string } }) => {
 
 
   useEffect(() => {
-    // if (!socket) return;
+    if (!socket) return;
 
     socket.on("user:joined", handleUserJoined)
     socket.on("incoming:call", handleIncomingCall)
