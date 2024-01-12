@@ -1,10 +1,10 @@
 "use client"
 
 import { useSocket } from "@/context/SocketProvider"
-import { useEffect, useState } from "react"
+import { useState } from "react"
 
 export default function Home() {
-  const { messages, socket, sendMessage } = useSocket()
+  const { messages, sendMessage } = useSocket()
   const [message, setMessage] = useState('')
 
   const handleSubmit = () => {
@@ -12,13 +12,6 @@ export default function Home() {
     setMessage('');
     sendMessage(message)
   }
-
-  useEffect(() => {
-
-    if (!socket) { console.log('socket not ready'); return; }
-
-  }, [])
-
 
 
   return (
