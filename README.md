@@ -75,11 +75,3 @@ If you'd like to contribute to this project, please follow these steps:
 4. Commit your changes (`git commit -m 'Add some feature'`)
 5. Push to the branch (`git push origin feature/your-feature`)
 6. Create a pull request
-
-## License
-
-Include the license information for your project here.
-
-## Acknowledgments
-
-Mention any contributors, libraries, or resources you've used or want to acknowledge.
