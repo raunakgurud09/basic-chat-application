@@ -483,6 +483,3 @@ npm run dev
 Open the application in two different tabs in incognito mode to ensure that it is working properly.
 
 🎉🎉 Hooray! You have successfully created a chat application. This was just an introduction to websockets. In the next blog, we will explore the limitations of websockets for scaling and how to scale the websocket server using redis and kafka.
-
-follow for more
-
