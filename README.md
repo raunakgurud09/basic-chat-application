@@ -1,6 +1,7 @@
 # Node.js Next.js Socket.IO App
 
 This repository contains a basic chat/video application built with Node.js, Next.js, and Socket.IO, WebRTC. The application demonstrates the integration of these technologies to create a real-time web application.
+This is demo app for the blog series [Websockets unlocked mastering the art of realtime](https://raunakgurud.hashnode.dev/websockets-unlocked-mastering-the-art-of-real-time-communication)
 
 ## Prerequisites
 
