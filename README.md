@@ -18,7 +18,7 @@ WebSockets are a communication protocol that provides full-duplex communication 
 
 HTTP is like sending letters where you ask for something, and then you wait for a reply. WebSocket is like having a phone call where you can talk back and forth instantly. Chat applications, online gaming, financial platforms, and live streaming is build using websockets.
 
-![Basic working_of_websocket](./images/basic_working_of_websocket.png)
+![Basic working_of_websocket](./public/images/basic_working_of_websocket.png)
 
 let's look at some benefits of websocket
 
@@ -54,17 +54,17 @@ As you can see, we are creating a variable called "socket" which has a URL (echo
     socket.send('Hello, server!');
 ```
 
-![Wss connection in console](./images/console_wss_1.png)
+![Wss connection in console](./public/images/console_wss_1.png)
 
 Now, move to the network tab and find the raw name response. You can see that this raw response is of type websocket.
 
 Clicking on raw will allow you to see additional information about the request, such as the status code and headers.
 
-![Wss connection in console](./images/console_wss_2.png)
+![Wss connection in console](./public/images/console_wss_2.png)
 
 Click on the message tab to view all the WebSocket messages that have been sent and received. The UpArrow denotes the message sent by us, while the DownArrow denotes the message received. Since we are using an echo server, we are getting the same response (refer to the previous image).
 
-![Wss connection in console](./images/console_wss_3.png)
+![Wss connection in console](./public/images/console_wss_3.png)
 
 Go ahead and try this out on your own and experiment with it. You can also learn more about the WebSocket API on the [MND documentation](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API).
 
@@ -74,7 +74,7 @@ Learning without building is not effective, which is why we are going to create 
 
 // TODO: src code // add link of github
 
-![Wss connection in console](./images/basic_chat-app.png)
+![Wss connection in console](./public/images/basic_chat-app.png)
 
 This is a basic app without any proper UI. We will build the proper UI in future blogs. Let's start coding.
 
@@ -94,7 +94,7 @@ Create the project folder containing two sub-folders named client and server.
   mkdir client server
 ```
 
-![Wss connection in console](./images/folder_structure.png)
+![Wss connection in console](./public/images/folder_structure.png)
 
 ### Server
 

@@ -38,7 +38,8 @@ export const SocketProvider: React.FC<{ children: React.ReactNode }> = ({ childr
 
 
   useEffect(() => {
-    const _socket = io("http://localhost:8000")
+    // console.log(process.env.SOCKET_SERVER)
+    const _socket = io(`http://localhost:8081`)
 
     _socket.on("message", onMessageReceived)
 

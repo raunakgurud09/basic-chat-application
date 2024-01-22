@@ -3,6 +3,7 @@ import SocketService from "./services/socket";
 
 async function init() {
   const httpServer = await http.createServer();
+  
 
   const socketService = new SocketService();
   const PORT = process.env.PORT ? process.env.PORT : 8000;
@@ -14,7 +15,6 @@ async function init() {
   });
 
   socketService.initListeners();
-  
 }
 
 init();

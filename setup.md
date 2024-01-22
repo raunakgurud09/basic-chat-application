@@ -18,6 +18,7 @@ Follow these steps to get the application up and running on your local machine:
 
     ```bash
     git clone https://github.com/raunakgurud09/basic-chat-application.git
+    
     cd repo-name
     ```
 
